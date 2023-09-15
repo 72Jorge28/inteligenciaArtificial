@@ -2,7 +2,7 @@
 
 varon(pepe).
 varon(pepin).
-hembra(maria)
+hembra(maria).
 hembra(mary).
 hembra(elsa).
 hembra(lolita).
