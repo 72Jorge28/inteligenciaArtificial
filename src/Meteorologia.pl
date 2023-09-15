@@ -1,18 +1,21 @@
 % Las preguntas
 
-vientos_menores_63km/h(X):-nl, write(X), write('tiene fiebre?[s/n]: '), read(R),R=s.
-tos(X):-nl, write(X), write('tiene tos?[s/n]: '), read(R),R=s.
-sec_nas(X):-nl, write(X), write('tiene secreciones nasales?[s/n]: '), read(R),R=s.
-dolor_art_mus(X):-nl, write(X), write('tiene dolor en las articulaciones o muscular? [s/n]: '), read(R),R=s.
-rash(X):- nl, write(X), write('tiene rash? [s/n]: '), read(R), R=s.
+vientos_menores_63km/h(X):-nl, write(X), write('existe vientos menores a 63km/h?[s/n]: '), read(R),R=s.
+nubosidad(X):-nl, write(X), write('existe nubosidad intensa?[s/n]: '), read(R),R=s.
+precipitaciones(X):-nl, write(X), write('existe precipitaciones intensa?[s/n]: '), read(R),R=s.
+aumento_marea_oleaje(X):-nl, write(X), write('aumento en la marea y en el oleaje en las zonas costeras? [s/n]: '), read(R),R=s.
+vientos_mayores_63km/h(X):-nl, write(X), write('existe vientos mayores a 63km/h?[s/n]: '), read(R),R=s.
+vientos_mayores_116km/h(X):-nl, write(X), write('existe vientos mayores a 116km/h?[s/n]: '), read(R),R=s.
 
 % las reglas 
 
-gripe(X):-malestar(X),fiebre(X),tos(X),sec_nas(X).
-dengue(X):-malestar(X),fiebre(X),dolor_art_mus(X),rash(X).
+depresion_tropical(X):-vientos_menores_63km/h (X),nubosidad(X),precipitaciones(X),aumento_marea_oleaje(X),.
+tormenta tropical(X):-vientos_mayores_63km/h(X),nubosidad(X),precipitaciones(X),aumento_marea_oleaje(X),.
+huracan(X):-vientos_vientos_mayores_116km/h(X),nubosidad(X),precipitaciones(X),aumento_marea_oleaje(X),.
 
-% El diagnostico
+% Pronostico
 
-diagnostico(X):- write('Se investiga gripe'), gripe(X), nl, write(X), write('tiene sintoma de gripe.'), fail.
-diagnostico(X):- write('Se investiga dengue'), dengue(X), nl, write(X), write('tiene sintoma de dengue').
-diagnostico(X):- write('No se logro un diagnostico').
+pronostico(X):- write('Se investiga depresion_tropical'), depresion_tropical(X), nl, write(X), write('se pronostica depresion tropical.'), fail.
+pronostico(X):- write('Se investiga tormenta tropical'), tormenta tropical(X), nl, write(X), write('se pronostica tormenta tropical.').
+pronostico(X):- write('Se investiga huracan'), huracan(X), nl, write(X), write('tiene se pronostica huracan.').
+pronostico(X):- write('No se logro ningun pronostico').
