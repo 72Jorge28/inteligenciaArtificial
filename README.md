@@ -2,4 +2,4 @@
 
 Grethel Martínez Otero
 Jorge Ramos Suárez
-Roidel Torres Bush
+Roidel Torres Bosch
