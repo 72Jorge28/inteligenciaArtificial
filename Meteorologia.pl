@@ -13,8 +13,6 @@ prop(100,'depresionTropical',i). % Es una depresion tropical
 prop(101,'tormentaTropical',i). % Es una tormenta tropical
 prop(102,'huracan',i). % Es un huracan
 
-clase(1,objetivos, [100,101,102]).
-
 % Las reglas
 
 regla(1,y,[1,2,3,4],100,0.7).
