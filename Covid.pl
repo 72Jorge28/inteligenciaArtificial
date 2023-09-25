@@ -16,7 +16,7 @@ prop(11,Diarrea,p)
 
 prop(100,'Covid-19',i)
 
-clase(l,objetivos, [100])
+clase(1,objetivos, [100])
 
 % Las reglas
 

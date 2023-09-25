@@ -14,7 +14,7 @@ prop(9,aumentoHambre,p)
 
 prop(100,'DiabetesTipoII',i)
 
-clase(l,objetivos, [100])
+clase(1,objetivos, [100])
 
 % Las reglas
 
