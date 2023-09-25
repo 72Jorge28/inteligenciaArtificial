@@ -1,14 +1,14 @@
 % Proposiciones
 
-prop(1,aumentoSed,p)
-prop(2,miccion,p)
-prop(3,llagasCicatrizacionLenta,p)
-prop(4,zonaPielOscurecida,p)
-prop(5,perdidaPeso,p)
-prop(6,cansancio,p)
-prop(7,infeccionesFrecuentes,p)
-prop(8,visionBorrosa,p)
-prop(9,aumentoHambre,p)
+prop(1,'aumento en la sed',p)
+prop(2,'presenta miccion',p)
+prop(3,'presenta llagas de cicatrizacion lenta',p)
+prop(4,'presenta zona de piel oscurecida',p)
+prop(5,'perdida de peso involuntaria',p)
+prop(6,'presenta cansancio',p)
+prop(7,'infecciones frecuentes',p)
+prop(8,'vision borrosa',p)
+prop(9,'aumento en el hambre',p)
 
 % Preposicion inferible
 

@@ -1,11 +1,11 @@
 % Proposiciones
 
-prop(1,menor63,p). % vientos menores a 63km/h
-prop(2,nubosidad,p). % existe nubosidad intensa
-prop(3,presipitaciones,p). % existe precipitaciones intensas
-prop(4,aumentoMarea,p). % aumento en la marea y en el oleaje en las zonas costeras
-prop(5,mayores63,p). % existe vientos mayores a 63km/h
-prop(6,mayores116,p). % existe vientos mayores a 116km/h
+prop(1,'vientos menores a 63km/h',p). % vientos menores a 63km/h
+prop(2,'nubosidad intensa',p). % existe nubosidad intensa
+prop(3,'presipitaciones intensas',p). % existe precipitaciones intensas
+prop(4,'aumento en la marea',p). % aumento en la marea y en el oleaje en las zonas costeras
+prop(5,'vientos mayores a 63km/h',p). % existe vientos mayores a 63km/h
+prop(6,'vientos mayores a 116km/h',p). % existe vientos mayores a 116km/h
 
 % Proposicion inferible
 

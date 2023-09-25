@@ -1,11 +1,11 @@
 % Proposiciones
 
-prop(1,malestar,p)
-prop(2,fiebre,p)
-prop(3,tos,p)
-prop(4,secrecionesNasales,p)
-prop(5,dolorArticulacionesMusculares,p)
-prop(6,rash,p)
+prop(1,'malestar',p)
+prop(2,'fiebre',p)
+prop(3,'tos',p)
+prop(4,'secreciones nasales',p)
+prop(5,'dolor en articulaciones o musculos',p)
+prop(6,'rash',p)
 
 % Proposicion inferible
 

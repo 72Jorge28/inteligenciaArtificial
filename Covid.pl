@@ -1,16 +1,16 @@
 % Proposiciones
 
-prop(1,fiebreEscalofrios,p)
-prop(2,tos,p)
-prop(3,dificultadRespirar,p)
-prop(4,fatiga,p)
-prop(5,dolorMuscular,p)
-prop(6,dolorCabeza,p)
-prop(7,perdidaOlfato,p)
-prop(8,dolorGarganta,p)
-prop(9,congestionMoqueo,p)
-prop(10,nauseasVomitos,p)
-prop(11,Diarrea,p)
+prop(1,'tiene fiebre o escalofrios',p)
+prop(2,'tiene tos',p)
+prop(3,'tiene dificultad al respirar',p)
+prop(4,'tiene fatiga',p)
+prop(5,'tiene dolor muscular',p)
+prop(6,'tiene dolor de cabeza',p)
+prop(7,'tiene perdida del olfato',p)
+prop(8,'tiene dolor de garganta',p)
+prop(9,'tiene congestion o moqueo',p)
+prop(10,'tiene nauseas o vomitos',p)
+prop(11,'tiene diarrea',p)
 
 % Preposicion inferible
 
