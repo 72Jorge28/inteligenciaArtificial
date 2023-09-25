@@ -12,7 +12,7 @@ prop(6,rash,p)
 prep(100,'gripe',i)
 prep(101,'dengue',i)
 
-clase(2,objetivo, [100,101])
+clase(l,objetivos, [100,101])
 
 % Las reglas
 

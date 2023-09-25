@@ -13,7 +13,7 @@ prep(100,'depresionTropical',i)
 prep(101,'tormentaTropical',i)
 prep(102,'huracan',i)
 
-clase(2,objetivo, [100,101,102])
+clase(l,objetivos, [100,101,102])
 
 % Las reglas
 
