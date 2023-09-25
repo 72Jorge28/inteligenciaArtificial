@@ -12,7 +12,7 @@ rash(x):- nl, write(x), write('tiene rash? [s/n]: '), read(R), R=s.
 % las reglas 
 
 gripe(x):-malestar(x),fiebre(x),tos(x),sec_nas(x).
-denge(x):-malestar(x),fiebre(x),dolor_art_mus(pepe),rash(x).
+dengue(x):-malestar(x),fiebre(x),dolor_art_mus(pepe),rash(x).
 
 % El diagnostico
 
