@@ -7,11 +7,11 @@ prop(4,aumentoMarea,p)
 prop(5,mayores63,p)
 prop(6,mayores116,p)
 
-% Preposicion inferible
+% Proposicion inferible
 
-prep(100,'depresionTropical',i)
-prep(101,'tormentaTropical',i)
-prep(102,'huracan',i)
+prop(100,'depresionTropical',i)
+prop(101,'tormentaTropical',i)
+prop(102,'huracan',i)
 
 clase(l,objetivos, [100,101,102])
 

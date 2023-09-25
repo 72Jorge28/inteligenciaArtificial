@@ -12,7 +12,7 @@ prop(9,aumentoHambre,p)
 
 % Preposicion inferible
 
-prep(100,'DiabetesTipoII',i)
+prop(100,'DiabetesTipoII',i)
 
 clase(l,objetivos, [100])
 

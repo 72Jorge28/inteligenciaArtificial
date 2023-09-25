@@ -14,7 +14,7 @@ prop(11,Diarrea,p)
 
 % Preposicion inferible
 
-prep(100,'Covid-19',i)
+prop(100,'Covid-19',i)
 
 clase(l,objetivos, [100])
 
