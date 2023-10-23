@@ -11,7 +11,7 @@ import tensorflow as tf
 import numpy as np
 
 inputs = np.array([[3, 0, 0], [1, 2, 0], [1, 1, 1], [0, 0, 3]], dtype=float)
-outputs = np.array([36, 32, 30, 50], dtype=float)
+outputs = np.array([36, 32, 30, 30], dtype=float)
 
 model = tf.keras.Sequential([
     tf.keras.layers.Dense(4, activation='relu', input_shape=(3,)),
