@@ -1,4 +1,0 @@
-[3,0,0] = 36 Tres cafes son 36 pesos
-[1,2,0] = 32 un cafe y dos jabones son 32
-[1,1,1] = 30 Un cafe un jabon y una libra de arroz son 30
-[0,0,3] = 30 Tres libras de arroz son 30
